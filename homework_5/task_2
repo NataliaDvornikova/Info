@@ -1,3 +1,3 @@
-x = int(input())
-y = int(input())
-print(x + y)
+a = int(input("Введите число x: "))
+b = int(input("Введите число у: "))
+print(f'"x + y =" {a + b}')
