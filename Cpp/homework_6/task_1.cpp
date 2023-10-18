@@ -1,4 +1,4 @@
-//Вывести таблицу умножения для заданного числа.#include <iostream>
+//Вывести таблицу умножения для заданного числа
 #include <locale>
 #include <iostream>
 using namespace std;
