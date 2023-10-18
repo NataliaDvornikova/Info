@@ -1,5 +1,4 @@
-//Вывести таблицу умножения для заданного числа.
-#include <iostream>
+//Вывести таблицу умножения для заданного числа.#include <iostream>
 #include <locale>
 using namespace std;
 
@@ -12,12 +11,9 @@ int main()
     cin >> a;
     cout << "Таблица умножения для числа " << a << ":" << endl;
     {
-        int i{ 1 };
-        while (i < 11)
-        {
+        int i;
+        for (i = 1; i <= 10; i++)
         cout << a << " * " << i << " = " << a * i << endl; 
-        i++;
-        }
     }
     return 0;
 }
