@@ -15,5 +15,5 @@ int main()
         cout << a << " - високосный год" << endl;
     else
         cout << a << " - не високосный год" << endl;
-    return(0)
+    return(0);
 }
