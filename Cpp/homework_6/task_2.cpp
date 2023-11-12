@@ -8,7 +8,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int a;
-    int b = 1;
+    unsigned long long b = 1;
     cout << "Введите число: ";
     cin >> a;
     for (int i = 1; i <= a; i++)
