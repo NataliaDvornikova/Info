@@ -15,6 +15,6 @@ public:
 };
 
 int main() {
-    Dog myDog("Jack", 18);
+    Dog myDog("Zhuchka", 10);
     myDog.getInfo();
 }
